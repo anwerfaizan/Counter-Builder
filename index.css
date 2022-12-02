@@ -1,0 +1,65 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+#root{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.names{
+  height:35vh;
+  width: 100vw;
+  background-color: coral;
+}
+
+.counters{
+  height:65vh;
+  width: 100vw;
+  background-color:aqua;
+  display: flex;
+  padding:20px
+}
+
+.counter{
+  height:270px;
+  width: 220px;
+  background-color: teal;
+  margin:25px 100px;
+  padding:15px;
+}
+
+
+.names{
+  margin:2px;
+  padding:10px;
+}
+
+.names h2{
+  margin-left: 600px;
+}
+
+.names input{
+  margin:15px;
+}
+
+.names div{
+  margin-left: 500px;
+}
+
+.names button{
+  margin-left: 640px;
+  padding:5px;
+  cursor: pointer;
+}
+
+.counter button{
+  margin-left:40px;
+  cursor: pointer;
+}
